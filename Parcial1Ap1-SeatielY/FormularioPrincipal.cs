@@ -15,5 +15,17 @@ namespace Parcial1Ap1_SeatielY
         {
             InitializeComponent();
         }
+
+        private void registroEmpleadoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UI.Registros.rEmpleados re = new UI.Registros.rEmpleados();
+            re.Show();
+        }
+
+        private void consultasEmpleadoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UI.Consultas.cEmpleados ce = new UI.Consultas.cEmpleados();
+            ce.Show();
+        }
     }
 }
