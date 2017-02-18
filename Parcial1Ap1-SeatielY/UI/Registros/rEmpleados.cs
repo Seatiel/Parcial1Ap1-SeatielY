@@ -1,4 +1,5 @@
 ﻿using Parcial1Ap1_SeatielY.BLL;
+using Parcial1Ap1_SeatielY.DAL;
 using Parcial1Ap1_SeatielY.Entidades;
 using System;
 using System.Collections.Generic;
@@ -59,49 +60,59 @@ namespace Parcial1Ap1_SeatielY.UI.Registros
             if (!Validar())
             {
                 MessageBox.Show("Debe de completar los campos");
-            }            
-            if (empleado != null)
-            {                
-                if(EmpleadosBLL.Guardar(empleado)) 
+            }
+            else if (empleado != null)
+            {
+                using (var db = new Repositorio<Empleados>())
                 {
-                    MessageBox.Show("El Empleado ha sido Guardado");
+                    db.Guardar(empleado);
+                    MessageBox.Show("Empleado guardado!");
                     Limpiar();
                 }
-                else if (EmpleadosBLL.Modificar(empleado))
-                {
-                    MessageBox.Show("El Empleado ha sido modificado");
-                }
-            }
+            }            
         }
 
         private void Eliminarbutton_Click(object sender, EventArgs e)
         {
-            var empleado = EmpleadosBLL.Buscar(Utilidades.ToInt(EmpleadoIdtextBox.Text));
-            if (empleado != null)
+            int id = Utilidades.ToInt(EmpleadoIdtextBox.Text);            
+            if (!string.IsNullOrEmpty(EmpleadoIdtextBox.Text))
             {
-                if (EmpleadosBLL.Eliminar(empleado))
+                using (var db = new Repositorio<Empleados>())
                 {
-                    MessageBox.Show("El Empleado ha sido eliminado");
-                    Limpiar();
+                    if (db.Eliminar(db.Buscar(em => em.EmpleadoId == id)))
+                    {
+                        MessageBox.Show("Empleado Eliminado!");
+                        Limpiar();
+                    }
+                    else
+                    {
+                        MessageBox.Show("Empleado no existe!");
+                    }
                 }
-            }
+            }            
         }
 
         private void Buscarbutton_Click(object sender, EventArgs e)
         {
             if (!string.IsNullOrEmpty(EmpleadoIdtextBox.Text))
             {
-                var empleado = EmpleadosBLL.Buscar(Utilidades.ToInt(EmpleadoIdtextBox.Text));
+                int id = Utilidades.ToInt(EmpleadoIdtextBox.Text);
+                Empleados empleado;
+                empleado = null;
+                using (var db = new Repositorio<Empleados>())
+                {
+                    empleado = db.Buscar(em => em.EmpleadoId == id);
+                }
                 if (empleado != null)
                 {
-                    NombretextBox.Text = empleado.Nombre;                    
+                    NombretextBox.Text = empleado.Nombre;
                     FechaNacimientodateTimePicker.Value = empleado.Fecha;
                     SueldotextBox.Text = empleado.Sueldo.ToString();
                 }
                 else
                 {
                     MessageBox.Show("El Empleado no ha sido creado");
-                }
+                }               
             }
         }
 

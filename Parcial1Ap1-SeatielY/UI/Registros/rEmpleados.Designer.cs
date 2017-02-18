@@ -64,7 +64,7 @@
             this.label2.Location = new System.Drawing.Point(115, 173);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(73, 20);
-            this.label2.TabIndex = 1;
+            this.label2.TabIndex = 2;
             this.label2.Text = "Nombre:";
             // 
             // label4
@@ -74,7 +74,7 @@
             this.label4.Location = new System.Drawing.Point(123, 279);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(65, 20);
-            this.label4.TabIndex = 3;
+            this.label4.TabIndex = 6;
             this.label4.Text = "Sueldo:";
             // 
             // EmpleadoIdtextBox
@@ -83,7 +83,7 @@
             this.EmpleadoIdtextBox.Location = new System.Drawing.Point(210, 113);
             this.EmpleadoIdtextBox.Name = "EmpleadoIdtextBox";
             this.EmpleadoIdtextBox.Size = new System.Drawing.Size(37, 27);
-            this.EmpleadoIdtextBox.TabIndex = 4;
+            this.EmpleadoIdtextBox.TabIndex = 1;
             // 
             // NombretextBox
             // 
@@ -91,7 +91,7 @@
             this.NombretextBox.Location = new System.Drawing.Point(210, 166);
             this.NombretextBox.Name = "NombretextBox";
             this.NombretextBox.Size = new System.Drawing.Size(190, 27);
-            this.NombretextBox.TabIndex = 5;
+            this.NombretextBox.TabIndex = 3;
             // 
             // label3
             // 
@@ -100,7 +100,7 @@
             this.label3.Location = new System.Drawing.Point(39, 226);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(149, 20);
-            this.label3.TabIndex = 2;
+            this.label3.TabIndex = 4;
             this.label3.Text = "Fecha Nacimiento:";
             // 
             // SueldotextBox
@@ -117,7 +117,7 @@
             this.Nuevobutton.Location = new System.Drawing.Point(108, 355);
             this.Nuevobutton.Name = "Nuevobutton";
             this.Nuevobutton.Size = new System.Drawing.Size(104, 43);
-            this.Nuevobutton.TabIndex = 8;
+            this.Nuevobutton.TabIndex = 11;
             this.Nuevobutton.Text = "Nuevo";
             this.Nuevobutton.UseVisualStyleBackColor = true;
             this.Nuevobutton.Click += new System.EventHandler(this.Nuevobutton_Click);
@@ -128,7 +128,7 @@
             this.Guardarbutton.Location = new System.Drawing.Point(241, 355);
             this.Guardarbutton.Name = "Guardarbutton";
             this.Guardarbutton.Size = new System.Drawing.Size(104, 43);
-            this.Guardarbutton.TabIndex = 9;
+            this.Guardarbutton.TabIndex = 8;
             this.Guardarbutton.Text = "Guardar";
             this.Guardarbutton.UseVisualStyleBackColor = true;
             this.Guardarbutton.Click += new System.EventHandler(this.Guardarbutton_Click);
@@ -150,7 +150,7 @@
             this.Buscarbutton.Location = new System.Drawing.Point(379, 97);
             this.Buscarbutton.Name = "Buscarbutton";
             this.Buscarbutton.Size = new System.Drawing.Size(104, 43);
-            this.Buscarbutton.TabIndex = 11;
+            this.Buscarbutton.TabIndex = 9;
             this.Buscarbutton.Text = "Buscar";
             this.Buscarbutton.UseVisualStyleBackColor = true;
             this.Buscarbutton.Click += new System.EventHandler(this.Buscarbutton_Click);
@@ -171,7 +171,7 @@
             this.FechaNacimientodateTimePicker.Location = new System.Drawing.Point(210, 226);
             this.FechaNacimientodateTimePicker.Name = "FechaNacimientodateTimePicker";
             this.FechaNacimientodateTimePicker.Size = new System.Drawing.Size(190, 27);
-            this.FechaNacimientodateTimePicker.TabIndex = 12;
+            this.FechaNacimientodateTimePicker.TabIndex = 5;
             // 
             // rEmpleados
             // 
