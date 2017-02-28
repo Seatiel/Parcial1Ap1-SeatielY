@@ -51,7 +51,7 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(82, 120);
+            this.label1.Location = new System.Drawing.Point(12, 35);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(106, 20);
             this.label1.TabIndex = 0;
@@ -61,7 +61,7 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.Location = new System.Drawing.Point(115, 173);
+            this.label2.Location = new System.Drawing.Point(12, 88);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(73, 20);
             this.label2.TabIndex = 2;
@@ -71,7 +71,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.Location = new System.Drawing.Point(123, 279);
+            this.label4.Location = new System.Drawing.Point(12, 194);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(65, 20);
             this.label4.TabIndex = 6;
@@ -80,7 +80,7 @@
             // EmpleadoIdtextBox
             // 
             this.EmpleadoIdtextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.EmpleadoIdtextBox.Location = new System.Drawing.Point(210, 113);
+            this.EmpleadoIdtextBox.Location = new System.Drawing.Point(175, 28);
             this.EmpleadoIdtextBox.Name = "EmpleadoIdtextBox";
             this.EmpleadoIdtextBox.Size = new System.Drawing.Size(37, 27);
             this.EmpleadoIdtextBox.TabIndex = 1;
@@ -88,16 +88,16 @@
             // NombretextBox
             // 
             this.NombretextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NombretextBox.Location = new System.Drawing.Point(210, 166);
+            this.NombretextBox.Location = new System.Drawing.Point(175, 81);
             this.NombretextBox.Name = "NombretextBox";
-            this.NombretextBox.Size = new System.Drawing.Size(190, 27);
+            this.NombretextBox.Size = new System.Drawing.Size(212, 27);
             this.NombretextBox.TabIndex = 3;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.Location = new System.Drawing.Point(39, 226);
+            this.label3.Location = new System.Drawing.Point(12, 141);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(149, 20);
             this.label3.TabIndex = 4;
@@ -106,15 +106,15 @@
             // SueldotextBox
             // 
             this.SueldotextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SueldotextBox.Location = new System.Drawing.Point(210, 272);
+            this.SueldotextBox.Location = new System.Drawing.Point(175, 187);
             this.SueldotextBox.Name = "SueldotextBox";
-            this.SueldotextBox.Size = new System.Drawing.Size(190, 27);
+            this.SueldotextBox.Size = new System.Drawing.Size(212, 27);
             this.SueldotextBox.TabIndex = 7;
             // 
             // Nuevobutton
             // 
             this.Nuevobutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Nuevobutton.Location = new System.Drawing.Point(108, 355);
+            this.Nuevobutton.Location = new System.Drawing.Point(12, 259);
             this.Nuevobutton.Name = "Nuevobutton";
             this.Nuevobutton.Size = new System.Drawing.Size(104, 43);
             this.Nuevobutton.TabIndex = 11;
@@ -125,7 +125,7 @@
             // Guardarbutton
             // 
             this.Guardarbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Guardarbutton.Location = new System.Drawing.Point(241, 355);
+            this.Guardarbutton.Location = new System.Drawing.Point(145, 259);
             this.Guardarbutton.Name = "Guardarbutton";
             this.Guardarbutton.Size = new System.Drawing.Size(104, 43);
             this.Guardarbutton.TabIndex = 8;
@@ -136,7 +136,7 @@
             // Eliminarbutton
             // 
             this.Eliminarbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Eliminarbutton.Location = new System.Drawing.Point(379, 355);
+            this.Eliminarbutton.Location = new System.Drawing.Point(283, 259);
             this.Eliminarbutton.Name = "Eliminarbutton";
             this.Eliminarbutton.Size = new System.Drawing.Size(104, 43);
             this.Eliminarbutton.TabIndex = 10;
@@ -147,9 +147,9 @@
             // Buscarbutton
             // 
             this.Buscarbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.Buscarbutton.Location = new System.Drawing.Point(379, 97);
+            this.Buscarbutton.Location = new System.Drawing.Point(230, 12);
             this.Buscarbutton.Name = "Buscarbutton";
-            this.Buscarbutton.Size = new System.Drawing.Size(104, 43);
+            this.Buscarbutton.Size = new System.Drawing.Size(101, 43);
             this.Buscarbutton.TabIndex = 9;
             this.Buscarbutton.Text = "Buscar";
             this.Buscarbutton.UseVisualStyleBackColor = true;
@@ -168,16 +168,16 @@
             this.FechaNacimientodateTimePicker.CustomFormat = "yyyy/MM/dd";
             this.FechaNacimientodateTimePicker.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FechaNacimientodateTimePicker.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
-            this.FechaNacimientodateTimePicker.Location = new System.Drawing.Point(210, 226);
+            this.FechaNacimientodateTimePicker.Location = new System.Drawing.Point(175, 141);
             this.FechaNacimientodateTimePicker.Name = "FechaNacimientodateTimePicker";
-            this.FechaNacimientodateTimePicker.Size = new System.Drawing.Size(190, 27);
+            this.FechaNacimientodateTimePicker.Size = new System.Drawing.Size(212, 27);
             this.FechaNacimientodateTimePicker.TabIndex = 5;
             // 
             // rEmpleados
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(574, 496);
+            this.ClientSize = new System.Drawing.Size(445, 330);
             this.Controls.Add(this.FechaNacimientodateTimePicker);
             this.Controls.Add(this.Buscarbutton);
             this.Controls.Add(this.Eliminarbutton);

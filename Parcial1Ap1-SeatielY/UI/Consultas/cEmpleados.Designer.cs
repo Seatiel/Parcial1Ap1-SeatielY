@@ -114,7 +114,7 @@
             this.Buscarbutton.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.Buscarbutton.Location = new System.Drawing.Point(651, 54);
             this.Buscarbutton.Name = "Buscarbutton";
-            this.Buscarbutton.Size = new System.Drawing.Size(83, 38);
+            this.Buscarbutton.Size = new System.Drawing.Size(97, 38);
             this.Buscarbutton.TabIndex = 7;
             this.Buscarbutton.Text = "Buscar";
             this.Buscarbutton.UseVisualStyleBackColor = true;
@@ -136,7 +136,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(765, 498);
+            this.ClientSize = new System.Drawing.Size(796, 498);
             this.Controls.Add(this.FiltrarcomboBox);
             this.Controls.Add(this.Buscarbutton);
             this.Controls.Add(this.label3);

@@ -33,6 +33,8 @@
             this.registroEmpleadoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.consultasToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.consultasEmpleadoToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reportesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.reporteEmpleadosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -41,7 +43,8 @@
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.registrosToolStripMenuItem,
-            this.consultasToolStripMenuItem});
+            this.consultasToolStripMenuItem,
+            this.reportesToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(691, 28);
@@ -78,6 +81,21 @@
             this.consultasEmpleadoToolStripMenuItem.Text = "Consultas Empleado";
             this.consultasEmpleadoToolStripMenuItem.Click += new System.EventHandler(this.consultasEmpleadoToolStripMenuItem_Click);
             // 
+            // reportesToolStripMenuItem
+            // 
+            this.reportesToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.reporteEmpleadosToolStripMenuItem});
+            this.reportesToolStripMenuItem.Name = "reportesToolStripMenuItem";
+            this.reportesToolStripMenuItem.Size = new System.Drawing.Size(80, 24);
+            this.reportesToolStripMenuItem.Text = "Reportes";
+            // 
+            // reporteEmpleadosToolStripMenuItem
+            // 
+            this.reporteEmpleadosToolStripMenuItem.Name = "reporteEmpleadosToolStripMenuItem";
+            this.reporteEmpleadosToolStripMenuItem.Size = new System.Drawing.Size(215, 26);
+            this.reporteEmpleadosToolStripMenuItem.Text = "Reporte Empleados";
+            this.reporteEmpleadosToolStripMenuItem.Click += new System.EventHandler(this.reporteEmpleadosToolStripMenuItem_Click);
+            // 
             // FormularioPrincipal
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -101,6 +119,8 @@
         private System.Windows.Forms.ToolStripMenuItem registroEmpleadoToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem consultasToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem consultasEmpleadoToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem reportesToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem reporteEmpleadosToolStripMenuItem;
     }
 }
 

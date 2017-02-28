@@ -27,5 +27,11 @@ namespace Parcial1Ap1_SeatielY
             UI.Consultas.cEmpleados ce = new UI.Consultas.cEmpleados();
             ce.Show();
         }
+
+        private void reporteEmpleadosToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UI.Reportes.ReporteEmpleados rpe = new UI.Reportes.ReporteEmpleados();
+            rpe.Show();
+        }
     }
 }
